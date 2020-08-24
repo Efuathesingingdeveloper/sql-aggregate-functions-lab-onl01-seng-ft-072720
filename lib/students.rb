@@ -5,7 +5,7 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
-  SELECT MIN(lowest_student_gpa) FROM cats;
+  SELECT MIN(lowest_student_gpa) FROM gpa;
 
 end
 

@@ -1,17 +1,17 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  SELECT MAX(student_gpa) FROM gpa;
+  SELECT MAX(gpa) FROM students;
 
 end
 
 def lowest_student_gpa
-  SELECT MIN(student_gpa) FROM gpa;
+  SELECT MIN(gpa) FROM students;
 
 end
 
 def average_student_gpa
-  SELECT AVG(gpa) FROM gpa;
+  SELECT AVG(gpa) FROM students;
 
 end
 
